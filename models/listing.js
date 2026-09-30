@@ -17,6 +17,6 @@ const mongooseSchema=new Schema({
     price:String,
     location:String,
     country:String,
-});
+});//
 const listing=mongoose.model("listing",mongooseSchema);
 module.exports=listing;
