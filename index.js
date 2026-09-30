@@ -29,7 +29,7 @@ app.get("/",(req,res)=>{
 // });
 app.get("/listing",async(req,res)=>{
  const allListing=await Listings.find({});
- res.render("listing/index.ejs",{allListing});
+ res.render("listing/index.ejs",{allListing});//
 });
 //listen to poet 8080
 app.listen(port,()=>{
